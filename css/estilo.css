@@ -1,0 +1,178 @@
+    /* Estilos generales */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+    }
+
+    /* Cabecera */
+    #cabecera {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    #cabecera h1 {
+        margin: 0;
+        font-size: 28px;
+    }
+
+    #cabecera button {
+        background-color: #e74c3c;
+        border: none;
+        padding: 10px 15px;
+        margin: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    #cabecera button a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #cabecera img {
+        width: 40px;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+
+    /* Cuerpo */
+    #cuerpo {
+        text-align: center;
+        padding: 50px;
+    }
+
+    /* Tabla de productos */
+    table {
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #3498db;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+
+    /* Botón Volver Atrás */
+    #cuerpo button {
+        background-color: #3498db;
+        border: none;
+        padding: 15px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    #cuerpo button a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* Estilos para los inputs */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #3498db;
+    box-shadow: 0px 0px 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Estilos para botones generales */
+button, input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 15px; /* Ajusta el espacio interno */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    width: auto; /* Evita que se alargue demasiado */
+    min-width: 120px; /* Establece un ancho mínimo para uniformidad */
+    text-align: center; /* Centra el texto */
+    display: inline-block;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active, input[type="submit"]:active {
+    background-color: #2471a3;
+    transform: scale(1);
+}
+
+
+/* Mensajes de validación */
+small {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+small[style*="color: red"] {
+    color: #e74c3c !important;
+    font-weight: bold;
+}
+
+small[style*="color: green"] {
+    color: #2ecc71 !important;
+    font-weight: bold;
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #2471a3;
+    transform: scale(1);
+}
